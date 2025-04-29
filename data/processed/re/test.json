@@ -1,0 +1,686 @@
+[
+  {
+    "text": "Lazarus Group deployed TrickBot on 192.168.1.10 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Microsoft systems",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Lazarus Group deployed TrickBot on 192.168.1.10 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "192.168.1.10",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT29 deployed TrickBot on 203.0.113.5 targeting government entities.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "government entities",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Emotet exploited CVE-2023-12345 to infect Microsoft systems.",
+    "entity_1": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "entity_2": {
+      "text": "CVE-2023-12345",
+      "label": "VULNERABILITY"
+    },
+    "relation": "exploits"
+  },
+  {
+    "text": "APT29 used Cobalt Strike to perform Phishing.",
+    "entity_1": {
+      "text": "Cobalt Strike",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Phishing",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "RansomEXX exploited CVE-2021-34527 to infect government entities.",
+    "entity_1": {
+      "text": "RansomEXX",
+      "label": "MALWARE"
+    },
+    "entity_2": {
+      "text": "CVE-2021-34527",
+      "label": "VULNERABILITY"
+    },
+    "relation": "exploits"
+  },
+  {
+    "text": "APT29 used Mimikatz to perform Command Injection.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT29 used Mimikatz to perform Command Injection.",
+    "entity_1": {
+      "text": "Mimikatz",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "APT29 deployed TrickBot on C2 server targeting banks.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "banks",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "APT29 used PowerSploit to perform Phishing.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "TrickBot exploited CVE-2021-34527 to infect Microsoft systems.",
+    "entity_1": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "entity_2": {
+      "text": "Microsoft systems",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Lazarus Group deployed RansomEXX on C2 server targeting banks.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "banks",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "APT29 deployed TrickBot on C2 server targeting banks.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 deployed RansomEXX on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "RansomEXX",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "Lazarus Group deployed Emotet on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "192.168.1.10",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT29 deployed TrickBot on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "government entities",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Emotet exploited CVE-2023-12345 to infect banks.",
+    "entity_1": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "entity_2": {
+      "text": "CVE-2023-12345",
+      "label": "VULNERABILITY"
+    },
+    "relation": "exploits"
+  },
+  {
+    "text": "APT29 deployed RansomEXX on C2 server targeting government entities.",
+    "entity_1": {
+      "text": "C2 server",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "RansomEXX",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT29 deployed Emotet on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT29 deployed Emotet on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT29 deployed TrickBot on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "192.168.1.10",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting banks.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "Lazarus Group deployed RansomEXX on C2 server targeting Microsoft systems.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Microsoft systems",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Microsoft systems",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Emotet exploited CVE-2023-12345 to infect banks.",
+    "entity_1": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "entity_2": {
+      "text": "banks",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 203.0.113.5 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 used PowerSploit to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT29 used Mimikatz to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "DLL Sideloading",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT29 deployed TrickBot on 203.0.113.5 targeting banks.",
+    "entity_1": {
+      "text": "203.0.113.5",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "Lazarus Group used Mimikatz to perform Command Injection.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT29 used PowerSploit to perform Phishing.",
+    "entity_1": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Phishing",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "Lazarus Group used PowerSploit to perform Phishing.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 used Mimikatz to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "DLL Sideloading",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT29 used Mimikatz to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Mimikatz",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 used PowerSploit to perform Command Injection.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "Lazarus Group used PowerSploit to perform Command Injection.",
+    "entity_1": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "APT28 deployed TrickBot on C2 server targeting government entities.",
+    "entity_1": {
+      "text": "C2 server",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT29 deployed Emotet on 192.168.1.10 targeting banks.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT29 used Cobalt Strike to perform Phishing.",
+    "entity_1": {
+      "text": "Cobalt Strike",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Phishing",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "APT29 deployed Emotet on C2 server targeting Microsoft systems.",
+    "entity_1": {
+      "text": "C2 server",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT28 used Cobalt Strike to perform Command Injection.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT28 used PowerSploit to perform Command Injection.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT29 used Cobalt Strike to perform Phishing.",
+    "entity_1": {
+      "text": "Cobalt Strike",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Phishing",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "192.168.1.10",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting banks.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 used Cobalt Strike to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Cobalt Strike",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 used PowerSploit to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "DLL Sideloading",
+      "label": "TECHNIQUE"
+    },
+    "relation": "executes"
+  },
+  {
+    "text": "APT28 deployed Emotet on 203.0.113.5 targeting banks.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting banks.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "banks",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "Lazarus Group deployed TrickBot on 192.168.1.10 targeting banks.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "entity_1": {
+      "text": "123.45.67.89",
+      "label": "INFRASTRUCTURE"
+    },
+    "entity_2": {
+      "text": "TrickBot",
+      "label": "MALWARE"
+    },
+    "relation": "hosts"
+  },
+  {
+    "text": "APT29 deployed Emotet on 203.0.113.5 targeting Microsoft systems.",
+    "entity_1": {
+      "text": "APT29",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "Lazarus Group used PowerSploit to perform DLL Sideloading.",
+    "entity_1": {
+      "text": "Lazarus Group",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "PowerSploit",
+      "label": "TOOL"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 deployed Emotet on 203.0.113.5 targeting government entities.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  },
+  {
+    "text": "APT28 deployed TrickBot on 192.168.1.10 targeting government entities.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "government entities",
+      "label": "TARGET"
+    },
+    "relation": "targets"
+  },
+  {
+    "text": "APT28 used Cobalt Strike to perform Command Injection.",
+    "entity_1": {
+      "text": "Cobalt Strike",
+      "label": "TOOL"
+    },
+    "entity_2": {
+      "text": "Command Injection",
+      "label": "TECHNIQUE"
+    },
+    "relation": "facilitates"
+  },
+  {
+    "text": "APT28 deployed Emotet on C2 server targeting government entities.",
+    "entity_1": {
+      "text": "APT28",
+      "label": "THREAT_ACTOR"
+    },
+    "entity_2": {
+      "text": "Emotet",
+      "label": "MALWARE"
+    },
+    "relation": "uses"
+  }
+]

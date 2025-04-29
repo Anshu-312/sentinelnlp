@@ -1,0 +1,108 @@
+[
+  {
+    "text": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "THREAT_ACTOR"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "label": "TOOL"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "TECHNIQUE"
+      }
+    ],
+    "relations": [
+      {
+        "source": 0,
+        "target": 1,
+        "type": "uses"
+      },
+      {
+        "source": 0,
+        "target": 2,
+        "type": "executes"
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "type": "facilitates"
+      }
+    ]
+  },
+  {
+    "text": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "label": "MALWARE"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "label": "VULNERABILITY"
+      },
+      {
+        "start": 62,
+        "end": 71,
+        "label": "TARGET"
+      }
+    ],
+    "relations": [
+      {
+        "source": 0,
+        "target": 1,
+        "type": "exploits"
+      }
+    ]
+  },
+  {
+    "text": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "THREAT_ACTOR"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "MALWARE"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "label": "TARGET"
+      },
+      {
+        "start": 38,
+        "end": 50,
+        "label": "INFRASTRUCTURE"
+      }
+    ],
+    "relations": [
+      {
+        "source": 0,
+        "target": 1,
+        "type": "uses"
+      },
+      {
+        "source": 0,
+        "target": 2,
+        "type": "targets"
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "type": "hosts"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "entity_types": [
+    {
+      "name": "THREAT_ACTOR",
+      "description": "Known attacker groups or hacker collectives",
+      "examples": ["APT28", "Lazarus Group"]
+    },
+    {
+      "name": "MALWARE",
+      "description": "Malware families or specific threats",
+      "examples": ["Emotet", "WannaCry"]
+    },
+    {
+      "name": "TOOL",
+      "description": "Tools used during attacks (open source or illicit)",
+      "examples": ["Mimikatz", "Cobalt Strike"]
+    },
+    {
+      "name": "VULNERABILITY",
+      "description": "Vulnerabilities exploited by attackers",
+      "examples": ["CVE-2021-34527", "BlueKeep"]
+    },
+    {
+      "name": "TACTIC",
+      "description": "MITRE ATT&CK Tactic category",
+      "examples": ["Initial Access", "Lateral Movement"]
+    },
+    {
+      "name": "TECHNIQUE",
+      "description": "MITRE ATT&CK Techniques",
+      "examples": ["Spearphishing Link", "DLL Sideloading"]
+    },
+    {
+      "name": "TARGET",
+      "description": "Victims or systems being targeted",
+      "examples": ["Microsoft", "supply chain", "admin user"]
+    },
+    {
+      "name": "INFRASTRUCTURE",
+      "description": "Attacker-controlled servers or platforms",
+      "examples": ["IP addresses", "domains", "hosting VPS"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024",
+    "source": "Cyber Threat Intelligence Annotation Guidelines"
+  }
+}
+  

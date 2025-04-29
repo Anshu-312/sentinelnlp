@@ -1,0 +1,51 @@
+{
+    "relation_types": [
+      {
+        "name": "uses",
+        "source": ["THREAT_ACTOR"],
+        "target": ["MALWARE", "TOOL"],
+        "description": "Indicates usage of malware or tools by threat actors"
+      },
+      {
+        "name": "exploits",
+        "source": ["MALWARE"],
+        "target": ["VULNERABILITY"],
+        "description": "Indicates exploitation of vulnerabilities by malware"
+      },
+      {
+        "name": "executes",
+        "source": ["THREAT_ACTOR"],
+        "target": ["TECHNIQUE"],
+        "description": "Indicates execution of techniques by threat actors"
+      },
+      {
+        "name": "part_of",
+        "source": ["TECHNIQUE"],
+        "target": ["TACTIC"],
+        "description": "Indicates technique belonging to a tactic category"
+      },
+      {
+        "name": "targets",
+        "source": ["THREAT_ACTOR"],
+        "target": ["TARGET"],
+        "description": "Indicates targeting of victims by threat actors"
+      },
+      {
+        "name": "hosts",
+        "source": ["INFRASTRUCTURE"],
+        "target": ["TOOL", "MALWARE"],
+        "description": "Indicates hosting of tools or malware on infrastructure"
+      },
+      {
+        "name": "facilitates",
+        "source": ["TOOL"],
+        "target": ["TECHNIQUE"],
+        "description": "Indicates tools enabling specific techniques"
+      }
+    ],
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2024",
+      "source": "Cyber Threat Intelligence Annotation Guidelines"
+    }
+}                                 
