@@ -1,0 +1,898 @@
+[
+  {
+    "id": "intrusion-set--da1065ce-972c-4605-8755-9cd1074e3b5a",
+    "type": "intrusion-set",
+    "name": "apt1",
+    "description": "apt1 is a single organization of operators that has conducted a cyber espionage campaign against a broad range of victims since at least 2006.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "threat-actor--6d179234-61fc-40c4-ae86-3d53308d8e65",
+    "type": "threat-actor",
+    "name": "ugly gorilla",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "threat-actor--d84cf283-93be-4ca7-890d-76c63eff3636",
+    "type": "threat-actor",
+    "name": "dota",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "threat-actor--02e7c48f-0301-4c23-b3e4-02e5a0114c21",
+    "type": "threat-actor",
+    "name": "superhard",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "threat-actor--d5b62b58-df7c-46b1-a435-4d01945fe21d",
+    "type": "threat-actor",
+    "name": "communist party of china",
+    "description": "the cpc is the ultimate authority in mainland china and tasks the pla to commit cyber espionage and data theft against organizations around the world.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "threat-actor--94624865-2709-443f-9b4c-2891985fd69b",
+    "type": "threat-actor",
+    "name": "unit 61398",
+    "description": "unit 61398 functions as the third department's premier entity targeting the united states and canada, most likely focusing on political, economic, and military-related intelligence.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "identity--a9119a87-6576-46af-bfd7-4fbe55926671",
+    "type": "identity",
+    "name": "jackwang",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "identity--e88ab115-7768-4630-baa3-3d49a7d946ea",
+    "type": "identity",
+    "name": "wang dong",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "identity--0e9d20d9-fb11-42e3-94bc-b89fb5b007ca",
+    "type": "identity",
+    "name": "dota",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "identity--ecf1c7de-d96c-41c6-a510-b9c65cdc9e3b",
+    "type": "identity",
+    "name": "mei qiang",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--031778a4-057f-48e6-9db9-c8d72b81ccd5",
+    "type": "indicator",
+    "name": "htran hop point accessor",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "indicator--da1d061b-2bc9-467a-b16f-8d14f468e1f0",
+    "type": "indicator",
+    "name": "htran hop point accessor",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "indicator--2173d108-5714-42fd-8213-4f3790259fda",
+    "type": "indicator",
+    "name": "htran hop point accessor",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "indicator--8ce03314-dfea-4498-ac9b-136e41ab00e4",
+    "type": "indicator",
+    "name": "htran hop point accessor",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "indicator--3f3ff9f1-bb4e-4392-89e5-1991179042ba",
+    "type": "indicator",
+    "name": "fqdn hugesoft.org",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--8390fd29-24ed-45d4-84d7-c5e5feaf195d",
+    "type": "indicator",
+    "name": "fqdn arrowservice.net",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--1002c58e-cbde-4930-b5ee-490037fd4f7e",
+    "type": "indicator",
+    "name": "fqdn msnhome.org",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--8d12f44f-8ac0-4b12-8b4a-3699ca8c9691",
+    "type": "indicator",
+    "name": "appendix e md5 hash '001dd76872d80801692ff942308c64e6'",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--745e1537-b4f3-49da-9f64-df6b1b5df190",
+    "type": "indicator",
+    "name": "appendix e md5 hash '002325a0a67fded0381b5648d7fe9b8e'",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--1dbe6ed0-c305-458f-9cce-f83c678f5afd",
+    "type": "indicator",
+    "name": "appendix e md5 hash '00dbb9e1c09dbdafb360f3163ba5a3de'",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--b3b6b540-d838-41e2-853b-005056c00008",
+    "type": "indicator",
+    "name": "appendix f ssl certificate for serial number 'negative4c0b1d197486a766b41abf4027217628'",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "indicator--b3b7035e-d838-41e2-8d38-005056c00008",
+    "type": "indicator",
+    "name": "appendix f ssl certificate for serial number '0e97881c6ca137964203bc454224756c'",
+    "description": "test description.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "malware--2485b844-4efe-4343-84c8-eb33312dd56f",
+    "type": "malware",
+    "name": "manitsme",
+    "description": "this malware will beacon out at random intervals to the remote attacker. the attacker can run programs, execute arbitrary commands, and easily upload and download files.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "malware--c0217091-9d3d-42a1-8952-ccc12d4ad8d0",
+    "type": "malware",
+    "name": "webc2-ugx",
+    "description": "a webc2 backdoor is designed to retrieve a web page from a c2 server. it expects the page to contain special html tags the backdoor will attempt to interpret the data between the tags as commands.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "malware--0f01c5a3-f516-4450-9381-4dd9f2279411",
+    "type": "malware",
+    "name": "webc2 backdoor",
+    "description": "a webc2 backdoor is designed to retrieve a web page from a c2 server. it expects the page to contain special html tags the backdoor will attempt to interpret the data between the tags as commands.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "malware--33159b98-3264-4e10-a968-d67975b6272f",
+    "type": "malware",
+    "name": "huc packet transmit tool htran",
+    "description": "when apt1 attackers are not using webc2, they require a command and control c2 user interface so they can issue commands to the backdoor. this interface sometimes runs on their personal attack system, which is typically in shanghai. in these instances, when a victim backdoor makes contact with a hop, the communications need to be forwarded from the hop to the intruders shanghai system so the backdoor can talk to the c2 server software. we have observed 767 separate instances in which apt1 intruders used the publicly available huc packet transmit tool or htran on a hopthe htran utility is merely a middle-man, facilitating connections between the victim and the attacker who is using the hop point.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "malware--fb490cdb-6760-41eb-a79b-0b930a50c017",
+    "type": "malware",
+    "name": "auriga",
+    "description": "malware family that contains functionality for keystroke logging, creating and killing processes, performing file system and registry modifications, etc.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "malware--ea50ecb7-2cd4-4895-bd08-31cd591ed0ca",
+    "type": "malware",
+    "name": "bangat",
+    "description": "malware family that contains functionality for keylogging, creating and killing processes, performing filesystem and registry modifications, etc.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "tool--ce45f721-af14-4fc0-938c-000c16186418",
+    "type": "tool",
+    "name": "cachedump",
+    "description": "this program extracts cached password hashes from a systems registry.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--e9778c42-bc2f-4eda-9fb4-6a931834f68c",
+    "type": "tool",
+    "name": "fgdump",
+    "description": "windows password hash dumper",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'fgdump', 'external_id': '', 'url': 'http://www.foofus.net/fizzgig/fgdump/'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--1cf6a3b8-be43-4c1a-b042-546a890c31b2",
+    "type": "tool",
+    "name": "gsecdump",
+    "description": "obtains password hashes from the windows registry, including the sam file, cached domain credentials, and lsa secrets",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'gsecdump', 'external_id': '', 'url': 'http://www.truesec.se'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--4d82bd3e-24a3-4f9d-b8f3-b57267fe06a9",
+    "type": "tool",
+    "name": "lslsass",
+    "description": "dump active logon session password hashes from the lsass process",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'lslsass', 'external_id': '', 'url': 'http://www.truesec.se'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--7de5dfcc-6809-4772-9f11-cf26c2be53aa",
+    "type": "tool",
+    "name": "mimikatz",
+    "description": "a utility primarily used for dumping password hashes",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'mimikatz', 'external_id': '', 'url': 'http://blog.gentilkiwi.com/mimikatz'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--266b12f2-aa16-4607-809e-f2d33eebb52e",
+    "type": "tool",
+    "name": "pass-the-hash toolkit",
+    "description": "allows an intruder to pass a password hash without knowing the original password to log in to systems",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'pass-the-hash toolkit', 'external_id': '', 'url': 'http://oss.coresecurity.com/projects/pshtoolkit.htm'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--98fd8dc1-6cc7-4908-899f-07473f55149a",
+    "type": "tool",
+    "name": "pwdump7",
+    "description": "dumps password hashes from the windows registry",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'pwdump7', 'external_id': '', 'url': 'http://www.tarasco.org/security/pwdump_7/'}"
+    ],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--4215b0e5-928e-4b2a-9b5f-64819f287f48",
+    "type": "tool",
+    "name": "pwdumpx",
+    "description": "dumps password hashes from the windows registry",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "tool--a6dd62d0-9683-48bf-a9cd-61e7eceae57e",
+    "type": "tool",
+    "name": "getmail",
+    "description": "getmail was designed specifically to extract email messages, attachments, and folders from within microsoft outlook archive pst files.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "complete-mission"
+    ]
+  },
+  {
+    "id": "tool--806a8f83-4913-4216-bb19-02b48ae25da5",
+    "type": "tool",
+    "name": "mapiget",
+    "description": "mapiget was designed specifically to steal email that has not yet been archived and still resides on a microsoft exchange server.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "complete-mission"
+    ]
+  },
+  {
+    "id": "attack-pattern--3098c57b-d623-4c11-92f4-5905da66658b",
+    "type": "attack-pattern",
+    "name": "initial compromise",
+    "description": "as with most other apt groups, spear phishing is apt1s most commonly used technique. the spear phishing emails contain either a malicious attachment or a hyperlink to a malicious file. the subject line and the text in the email body are usually relevant to the recipient. apt1 also creates webmail accounts using real peoples names - names that are familiar to the recipient, such as a colleague, a company executive, an it department employee, or company counsel. the files they use contain malicious executables that install a custom apt1 backdoor that we call webc2-table.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [
+      "{'source_name': 'capec', 'external_id': 'capec-163', 'url': ''}"
+    ],
+    "kill_chain_phases": [
+      "initial-compromise"
+    ]
+  },
+  {
+    "id": "attack-pattern--1e2c4237-d469-4144-9c0b-9e5c0c513c49",
+    "type": "attack-pattern",
+    "name": "establishing a foothold",
+    "description": "apt1 establishes a foothold once email recipients open a malicious file and a backdoor is subsequently installed. in almost every case, apt backdoors initiate outbound connections to the intruders 'command and control' c2 server. while apt1 intruders occasionally use publicly available backdoors such as poison ivy and gh0st rat, the vast majority of the time they use what appear to be their own custom backdoors. apt1s backdoors are in two categories 'beachhead backdoors' and 'standard backdoors.' beachhead backdoors offer the attacker a toe-hold to perform simple tasks like retrieve files, gather basic system information and trigger the execution of other more significant capabilities such as a standard backdoor. apt1s beachhead backdoors are usually what we call webc2 backdoors. webc2 backdoors are probably the most well-known kind of apt1 backdoor, and are the reason why some security companies refer to apt1 as the comment crew. a webc2 backdoor is designed to retrieve a webpage from a c2 server. it expects the webpage to contain special html tags the backdoor will attempt to interpret the data between the tags as commands. webc2 backdoors are often packaged with spear phishing emails. once installed, apt1 intruders have the option to tell victim systems to download and execute additional malicious software of their choice. the standard, non-webc2 apt1 backdoor typically communicates using the http protocol to blend in with legitimate web traffic or a custom protocol that the malware authors designed themselves. the biscuit backdoor so named for the command bdkzt is an illustrative example of the range of commands that apt1 has built into its standard backdoors. apt1 has used and steadily modified biscuit since as early as 2007 and continues to use it presently. some apt backdoors attempt to mimic legitimate internet traffic other than the http protocol. when network defenders see the communications between these backdoors and their c2 servers, they might easily dismiss them as legitimate network traffic. additionally, many of apt1s backdoors use ssl encryption so that communications are hidden in an encrypted ssl tunnel.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "establish-foothold"
+    ]
+  },
+  {
+    "id": "attack-pattern--e13f3e6d-4f9c-4265-b1cf-f997a1bf7827",
+    "type": "attack-pattern",
+    "name": "privilege escalation",
+    "description": "escalating privileges involves acquiring items most often usernames and passwords that will allow access to more resources within the network. apt1 predominantly uses publicly available tools to dump password hashes from victim systems in order to obtain legitimate user credentials.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "escalate-privileges"
+    ]
+  },
+  {
+    "id": "attack-pattern--5728f45b-2eca-4942-a7f6-bc4267c1ab8d",
+    "type": "attack-pattern",
+    "name": "internal reconnaisance",
+    "description": "in the internal reconnaissance stage, the intruder collects information about the victim environment. like most apt and non-apt intruders, apt1 primarily uses built-in operating system commands to explore a compromised system and its networked environment. although they usually simply type these commands into a command shell, sometimes intruders may use batch scripts to speed up the process.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "internal-recon"
+    ]
+  },
+  {
+    "id": "attack-pattern--0bea2358-c244-4905-a664-a5cdce7bb767",
+    "type": "attack-pattern",
+    "name": "lateral movement",
+    "description": "once an apt intruder has a foothold inside the network and a set of legitimate credentials, it is simple for the intruder to move around the network undetected. they can connect to shared resources on other systems. they can execute commands on other systems using the publicly available 'psexec' tool from microsoft sysinternals or the built-in windows task scheduler 'at.exe'.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "move-laterally"
+    ]
+  },
+  {
+    "id": "attack-pattern--7151c6d0-7e97-47ce-9290-087315ea3db7",
+    "type": "attack-pattern",
+    "name": "maintain presence",
+    "description": "in this stage, the intruder takes actions to ensure continued, long-term control over key systems in the network environment from outside of the network. apt1 does this in three ways install new backdoors on multiple systems, use legitimate vpn credentials, and log in to web portals.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "maintain-presence"
+    ]
+  },
+  {
+    "id": "attack-pattern--0781fe70-4c94-4300-8865-4b08b98611b4",
+    "type": "attack-pattern",
+    "name": "completing the mission",
+    "description": "similar to other apt groups we track, once apt1 finds files of interest they pack them into archive files before stealing them. apt intruders most commonly use the rar archiving utility for this task and ensure that the archives are password protected. sometimes apt1 intruders use batch scripts to assist them in the process. after creating files compressed via rar, the apt1 attackers will transfer files out of the network in ways that are consistent with other apt groups, including using the file transfer protocol ftp or their existing backdoors. many times their rar files are so large that the attacker splits them into chunks before transferring them. unlike most other apt groups we track, apt1 uses two email-stealing utilities that we believe are unique to apt1. the first, getmail, was designed specifically to extract email messages, attachments, and folders from within microsoft outlook archive 'pst' files. the getmail utility allows apt1 intruders the flexibility to take only the emails between dates of their choice. in one case, we observed an apt1 intruder return to a compromised system once a week for four weeks in a row to steal only the past weeks emails. whereas getmail steals email in outlook archive files, the second utility, mapiget, was designed specifically to steal email that has not yet been archived and still resides on a microsoft exchange server. in order to operate successfully, mapiget requires usernamepassword combinations that the exchange server will accept. mapiget extracts email from specified accounts into text files for the email body and separate attachments, if there are any.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": [
+      "complete-mission"
+    ]
+  },
+  {
+    "id": "report--e33ffe07-2f4c-48d8-b0af-ee2619d765cf",
+    "type": "report",
+    "name": "apt1 exposing one of china's cyber espionage units",
+    "description": "since 2004, mandiant has investigated computer security breaches at hundreds of organizations around the world. the majority of these security breaches are attributed to advanced threat actors referred to as the 'advanced persistent threat' apt. we first published details about the apt in our january 2010 m-trends report. as we stated in the report, our position was that 'the chinese government may authorize this activity, but theres no way to determine the extent of its involvement.' now, three years later, we have the evidence required to change our assessment. the details we have analyzed during hundreds of investigations convince us that the groups conducting these activities are based primarily in china and that the chinese government is aware of them. mandiant continues to track dozens of apt groups around the world however, this report is focused on the most prolific of these groups. we refer to this group as 'apt1' and it is one of more than 20 apt groups with origins in china. apt1 is a single organization of operators that has conducted a cyber espionage campaign against a broad range of victims since at least 2006. from our observations, it is one of the most prolific cyber espionage groups in terms of the sheer quantity of information stolen. the scale and impact of apt1's operations compelled us to write this report. the activity we have directly observed likely represents only a small fraction of the cyber espionage that apt1 has conducted. though our visibility of apt1's activities is incomplete, we have analyzed the group's intrusions against nearly 150 victims over seven years. from our unique vantage point responding to victims, we tracked apt1 back to four large networks in shanghai, two of which are allocated directly to the pudong new area. we uncovered a substantial amount of apt1's attack infrastructure, command and control, and modus operandi tools, tactics, and procedures. in an effort to underscore there are actual individuals behind the keyboard, mandiant is revealing three personas we have attributed to apt1. these operators, like soldiers, may merely be following orders given to them by others. our analysis has led us to conclude that apt1 is likely government-sponsored and one of the most persistent of china's cyber threat actors. we believe that apt1 is able to wage such a long-running and extensive cyber espionage campaign in large part because it receives direct government support. in seeking to identify the organization behind this activity, our research found that people's liberation army pla's unit 61398 is similar to apt1 in its mission, capabilities, and resources. pla unit 61398 is also located in precisely the same area from which apt1 activity appears to originate.",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--6598bf44-1c10-4218-af9f-75b5b71c23a7",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--35f7a2bb-e4e2-4e56-8693-665bbb64162c",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--fd5cda8b-f45f-43bd-a9da-e521ddd7126e",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--a20b8626-a15e-41f0-bcb1-c05321e126f0",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--d84cf283-93be-4ca7-890d-76c63eff3636",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--71e6832f-17ee-42fd-938d-c7f881be2028",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--9dd881a7-6e9b-4c35-bef5-7a777bca65d3",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--306ce398-f708-47f9-88a1-38aa5b9985fc",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--8668d82a-1c97-4bea-a367-e391b025e00e",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--e0ca2caa-7fa0-4f36-ad19-96f107eb6023",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--765815fb-d993-4a1d-959f-7f7bcc4a5eb3",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--85b2a834-e4b5-4299-9a6b-bf2ac26dde7b",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--61f4fd3b-f581-4497-9149-e624c317287b",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--7cede760-b866-490e-ad5b-1df34bc14f8d",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--b2806dec-6f20-4a0d-ae9a-d4b1f7be71e3",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--3921b161-5872-4c21-8ab0-b5b84233f3dc",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--81827b05-8c20-4247-b5d8-674295a1c611",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--066593e1-49a4-4a3d-a5bb-2e0b4ce1a63c",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--b385d984-ba8a-4180-8e0e-af7b9987bcb8",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--6ffbec81-fa01-4b98-8726-c9d9fb2ef6b6",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--25586f60-bc27-47d6-9a8e-d1c6456c2f28",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--d080c1ea-1dd7-4da9-b64b-e68bb1c5887e",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--c9c66478-c9cf-49cd-bca2-66ce34a9c56d",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--44686fda-311c-4cdb-abef-80e922e7a3fb",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--340cb676-79ff-49e9-b6ba-cd27e06772c4",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--9908520f-b25d-44a8-900b-d4e0825dcd0d",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--1fbd9a8d-4c14-431c-9520-3ccc50b748c1",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--389a8dcd-8663-4f18-8584-d69a77bd71aa",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--b345f1d0-09c5-4a71-bfc6-a52bd5923a01",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  },
+  {
+    "id": "relationship--912b31d0-09c5-4a71-bfc6-a52bd5989a1b",
+    "type": "relationship",
+    "name": "",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "labels": [],
+    "external_references": [],
+    "kill_chain_phases": []
+  }
+]

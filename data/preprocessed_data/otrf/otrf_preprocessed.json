@@ -1,0 +1,184 @@
+[
+  {
+    "creation_date": "20170105",
+    "id": "170105-lsassmemoryreadaccess",
+    "title": "lsass memory read access",
+    "tactics": "'credential access'",
+    "collaborators": "'cyb3rward0g'"
+  },
+  {
+    "creation_date": "20180719",
+    "id": "180719-dllprocessinjectioncreateremotethread",
+    "title": "dll process injection via createremotethread and loadlibrary",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20180815",
+    "id": "180815-adobjectaccessreplication",
+    "title": "active directory object access via replication services",
+    "tactics": "'credential access'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190101",
+    "id": "190101-admoddirectoryreplication",
+    "title": "active directory root domain modification for replication services",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190407",
+    "id": "190407-regmodenablerdpconnections",
+    "title": "registry modification to enable remote desktop conections",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190410",
+    "id": "190410-localpwshexecution",
+    "title": "local powershell execution",
+    "tactics": "'execution'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190510",
+    "id": "190510-regmodwdigestdowngrade",
+    "title": "wdigest downgrade",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190511",
+    "id": "190511-remotepwshexecution",
+    "title": "powershell remote session",
+    "tactics": "'execution', 'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190815",
+    "id": "190610-pwshalternatehosts",
+    "title": "alternate powershell hosts",
+    "tactics": "'execution'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190620",
+    "id": "190620-domaindpapibackupkeyextraction",
+    "title": "domain dpapi backup key extraction",
+    "tactics": "'credential access'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190625",
+    "id": "190625-regkeyaccesssyskey",
+    "title": "syskey registry keys access",
+    "tactics": "'discovery'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190725",
+    "id": "190725-samregistryhivehandlerequest",
+    "title": "sam registry hive handle request",
+    "tactics": "'credential access', 'discovery'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190810",
+    "id": "190810-remotewmiexecution",
+    "title": "wmi win32process class and create method for remote execution",
+    "tactics": "'execution', 'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190810",
+    "id": "190810-wmieventing",
+    "title": "wmi eventing",
+    "tactics": "'persistence'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190811",
+    "id": "190811-wmimoduleload",
+    "title": "wmi module load",
+    "tactics": "'execution'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190813",
+    "id": "190813-localserviceinstallation",
+    "title": "service creation",
+    "tactics": "'execution'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190815",
+    "id": "190815-remoteserviceinstallation",
+    "title": "remote service creation",
+    "tactics": "'execution', 'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20190826",
+    "id": "190826-remotescmhandle",
+    "title": "remote service control manager handle",
+    "tactics": "'discovery'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20191030",
+    "id": "191030-remoteinteractivetaskmgrlsassdump",
+    "title": "remote interactive task manager lsass dump",
+    "tactics": "'credential access'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20191224",
+    "id": "191224-regmodextendednetntlmdowngrade",
+    "title": "registry modification for extended netntlm downgrade",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20200609",
+    "id": "200609-microphonedvcaccess",
+    "title": "access to microphone device",
+    "tactics": "'collection'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20200902",
+    "id": "200902-remotewmiactivescripteventconsumers",
+    "title": "remote wmi activescripteventconsumers",
+    "tactics": "'persistence', 'privilege escalation', 'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20201009",
+    "id": "201009-remotedcomiertutildllhijack",
+    "title": "remote dcom iertutil dll hijack",
+    "tactics": "'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20201009",
+    "id": "201009-remotewmiwbemcomndllhijack",
+    "title": "remote wmi wbemcomn dll hijack",
+    "tactics": "'lateral movement', 'execution'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20201012",
+    "id": "201012-remotecreatefilesmb",
+    "title": "smb create remote file",
+    "tactics": "'lateral movement'",
+    "collaborators": "'cyb3rward0g', 'cyb3rpandah'"
+  },
+  {
+    "creation_date": "20201012",
+    "id": "201012-wuaucltcreateremotethread",
+    "title": "wuauclt createremotethread execution",
+    "tactics": "'defense evasion'",
+    "collaborators": "'cyb3rward0g'"
+  }
+]

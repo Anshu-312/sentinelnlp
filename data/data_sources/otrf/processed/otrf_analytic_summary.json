@@ -1,0 +1,184 @@
+[
+  {
+    "creation_date": "2017/01/05",
+    "id": "170105-LSASSMemoryReadAccess",
+    "title": "LSASS Memory Read Access",
+    "tactics": "['Credential Access']",
+    "collaborators": "['@Cyb3rWard0g']"
+  },
+  {
+    "creation_date": "2018/07/19",
+    "id": "180719-DLLProcessInjectionCreateRemoteThread",
+    "title": "DLL Process Injection via CreateRemoteThread and LoadLibrary",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2018/08/15",
+    "id": "180815-ADObjectAccessReplication",
+    "title": "Active Directory Object Access via Replication Services",
+    "tactics": "['Credential Access']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/01/01",
+    "id": "190101-ADModDirectoryReplication",
+    "title": "Active Directory Root Domain Modification for Replication Services",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/04/07",
+    "id": "190407-RegModEnableRDPConnections",
+    "title": "Registry Modification to Enable Remote Desktop Conections",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/04/10",
+    "id": "190410-LocalPwshExecution",
+    "title": "Local PowerShell Execution",
+    "tactics": "['Execution']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/05/10",
+    "id": "190510-RegModWDigestDowngrade",
+    "title": "WDigest Downgrade",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/05/11",
+    "id": "190511-RemotePwshExecution",
+    "title": "PowerShell Remote Session",
+    "tactics": "['Execution', 'Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/15",
+    "id": "190610-PwshAlternateHosts",
+    "title": "Alternate PowerShell Hosts",
+    "tactics": "['Execution']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/06/20",
+    "id": "190620-DomainDPAPIBackupKeyExtraction",
+    "title": "Domain DPAPI Backup Key Extraction",
+    "tactics": "['Credential Access']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/06/25",
+    "id": "190625-RegKeyAccessSyskey",
+    "title": "SysKey Registry Keys Access",
+    "tactics": "['Discovery']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/07/25",
+    "id": "190725-SAMRegistryHiveHandleRequest",
+    "title": "SAM Registry Hive Handle Request",
+    "tactics": "['Credential Access', 'Discovery']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/10",
+    "id": "190810-RemoteWMIExecution",
+    "title": "WMI Win32_Process Class and Create Method for Remote Execution",
+    "tactics": "['Execution', 'Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/10",
+    "id": "190810-WMIEventing",
+    "title": "WMI Eventing",
+    "tactics": "['Persistence']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/11",
+    "id": "190811-WMIModuleLoad",
+    "title": "WMI Module Load",
+    "tactics": "['Execution']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/13",
+    "id": "190813-LocalServiceInstallation",
+    "title": "Service Creation",
+    "tactics": "['Execution']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/15",
+    "id": "190815-RemoteServiceInstallation",
+    "title": "Remote Service creation",
+    "tactics": "['Execution', 'Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/08/26",
+    "id": "190826-RemoteSCMHandle",
+    "title": "Remote Service Control Manager Handle",
+    "tactics": "['Discovery']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/10/30",
+    "id": "191030-RemoteInteractiveTaskMgrLsassDump",
+    "title": "Remote Interactive Task Manager LSASS Dump",
+    "tactics": "['Credential Access']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2019/12/24",
+    "id": "191224-RegModExtendedNetNTLMDowngrade",
+    "title": "Registry Modification for Extended NetNTLM Downgrade",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/06/09",
+    "id": "200609-MicrophoneDvcAccess",
+    "title": "Access to Microphone Device",
+    "tactics": "['Collection']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/09/02",
+    "id": "200902-RemoteWMIActiveScriptEventConsumers",
+    "title": "Remote WMI ActiveScriptEventConsumers",
+    "tactics": "['Persistence', 'Privilege Escalation', 'Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/10/09",
+    "id": "201009-RemoteDCOMIErtUtilDLLHijack",
+    "title": "Remote DCOM IErtUtil DLL Hijack",
+    "tactics": "['Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/10/09",
+    "id": "201009-RemoteWMIWbemcomnDLLHijack",
+    "title": "Remote WMI Wbemcomn DLL Hijack",
+    "tactics": "['Lateral Movement', 'Execution']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/10/12",
+    "id": "201012-RemoteCreateFileSMB",
+    "title": "SMB Create Remote File",
+    "tactics": "['Lateral Movement']",
+    "collaborators": "['@Cyb3rWard0g', '@Cyb3rPandaH']"
+  },
+  {
+    "creation_date": "2020/10/12",
+    "id": "201012-WuaucltCreateRemoteThread",
+    "title": "Wuauclt CreateRemoteThread Execution",
+    "tactics": "['Defense Evasion']",
+    "collaborators": "['@Cyb3rWard0g']"
+  }
+]
