@@ -1,0 +1,218 @@
+[
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "APT29",
+    "tail": "Mimikatz",
+    "head_type": "THREAT_ACTOR",
+    "tail_type": "TOOL",
+    "relation": "uses",
+    "input": "[CLS] <e1>APT29</e1> used <e2>Mimikatz</e2> to escalate privileges via DLL Sideloading. [SEP]"
+  },
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "APT29",
+    "tail": "DLL Sideloading",
+    "head_type": "THREAT_ACTOR",
+    "tail_type": "TECHNIQUE",
+    "relation": "executes",
+    "input": "[CLS] <e1>APT29</e1> used Mimikatz to escalate privileges via <e2>DLL Sideloading</e2>. [SEP]"
+  },
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "Mimikatz",
+    "tail": "APT29",
+    "head_type": "TOOL",
+    "tail_type": "THREAT_ACTOR",
+    "relation": "no_relation",
+    "input": "[CLS] <e2>APT29</e2> used <e1>Mimikatz</e1> to escalate privileges via DLL Sideloading. [SEP]"
+  },
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "Mimikatz",
+    "tail": "DLL Sideloading",
+    "head_type": "TOOL",
+    "tail_type": "TECHNIQUE",
+    "relation": "facilitates",
+    "input": "[CLS] APT29 used <e1>Mimikatz</e1> to escalate privileges via <e2>DLL Sideloading</e2>. [SEP]"
+  },
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "DLL Sideloading",
+    "tail": "APT29",
+    "head_type": "TECHNIQUE",
+    "tail_type": "THREAT_ACTOR",
+    "relation": "no_relation",
+    "input": "[CLS] <e2>APT29</e2> used Mimikatz to escalate privileges via <e1>DLL Sideloading</e1>. [SEP]"
+  },
+  {
+    "sentence": "APT29 used Mimikatz to escalate privileges via DLL Sideloading.",
+    "head": "DLL Sideloading",
+    "tail": "Mimikatz",
+    "head_type": "TECHNIQUE",
+    "tail_type": "TOOL",
+    "relation": "no_relation",
+    "input": "[CLS] APT29 used <e2>Mimikatz</e2> to escalate privileges via <e1>DLL Sideloading</e1>. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "Emotet",
+    "tail": "CVE-2021-34527",
+    "head_type": "MALWARE",
+    "tail_type": "VULNERABILITY",
+    "relation": "exploits",
+    "input": "[CLS] The malware <e1>Emotet</e1> exploited <e2>CVE-2021-34527</e2> to gain access to Microsoft systems. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "Emotet",
+    "tail": "Microsoft",
+    "head_type": "MALWARE",
+    "tail_type": "TARGET",
+    "relation": "no_relation",
+    "input": "[CLS] The malware <e1>Emotet</e1> exploited CVE-2021-34527 to gain access to <e2>Microsoft</e2> systems. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "CVE-2021-34527",
+    "tail": "Emotet",
+    "head_type": "VULNERABILITY",
+    "tail_type": "MALWARE",
+    "relation": "no_relation",
+    "input": "[CLS] The malware <e2>Emotet</e2> exploited <e1>CVE-2021-34527</e1> to gain access to Microsoft systems. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "CVE-2021-34527",
+    "tail": "Microsoft",
+    "head_type": "VULNERABILITY",
+    "tail_type": "TARGET",
+    "relation": "no_relation",
+    "input": "[CLS] The malware Emotet exploited <e1>CVE-2021-34527</e1> to gain access to <e2>Microsoft</e2> systems. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "Microsoft",
+    "tail": "Emotet",
+    "head_type": "TARGET",
+    "tail_type": "MALWARE",
+    "relation": "no_relation",
+    "input": "[CLS] The malware <e2>Emotet</e2> exploited CVE-2021-34527 to gain access to <e1>Microsoft</e1> systems. [SEP]"
+  },
+  {
+    "sentence": "The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.",
+    "head": "Microsoft",
+    "tail": "CVE-2021-34527",
+    "head_type": "TARGET",
+    "tail_type": "VULNERABILITY",
+    "relation": "no_relation",
+    "input": "[CLS] The malware Emotet exploited <e2>CVE-2021-34527</e2> to gain access to <e1>Microsoft</e1> systems. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "Lazarus Group",
+    "tail": "TrickBot",
+    "head_type": "THREAT_ACTOR",
+    "tail_type": "MALWARE",
+    "relation": "uses",
+    "input": "[CLS] <e1>Lazarus Group</e1> deployed <e2>TrickBot</e2> on IP 123.45.67.89 targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "Lazarus Group",
+    "tail": "government",
+    "head_type": "THREAT_ACTOR",
+    "tail_type": "TARGET",
+    "relation": "targets",
+    "input": "[CLS] <e1>Lazarus Group</e1> deployed TrickBot on IP 123.45.67.89 targeting <e2>government</e2> entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "Lazarus Group",
+    "tail": "123.45.67.89",
+    "head_type": "THREAT_ACTOR",
+    "tail_type": "INFRASTRUCTURE",
+    "relation": "no_relation",
+    "input": "[CLS] <e1>Lazarus Group</e1> deployed TrickBot on IP <e2>123.45.67.89</e2> targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "TrickBot",
+    "tail": "Lazarus Group",
+    "head_type": "MALWARE",
+    "tail_type": "THREAT_ACTOR",
+    "relation": "no_relation",
+    "input": "[CLS] <e2>Lazarus Group</e2> deployed <e1>TrickBot</e1> on IP 123.45.67.89 targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "TrickBot",
+    "tail": "government",
+    "head_type": "MALWARE",
+    "tail_type": "TARGET",
+    "relation": "no_relation",
+    "input": "[CLS] Lazarus Group deployed <e1>TrickBot</e1> on IP 123.45.67.89 targeting <e2>government</e2> entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "TrickBot",
+    "tail": "123.45.67.89",
+    "head_type": "MALWARE",
+    "tail_type": "INFRASTRUCTURE",
+    "relation": "no_relation",
+    "input": "[CLS] Lazarus Group deployed <e1>TrickBot</e1> on IP <e2>123.45.67.89</e2> targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "government",
+    "tail": "Lazarus Group",
+    "head_type": "TARGET",
+    "tail_type": "THREAT_ACTOR",
+    "relation": "no_relation",
+    "input": "[CLS] <e2>Lazarus Group</e2> deployed TrickBot on IP 123.45.67.89 targeting <e1>government</e1> entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "government",
+    "tail": "TrickBot",
+    "head_type": "TARGET",
+    "tail_type": "MALWARE",
+    "relation": "no_relation",
+    "input": "[CLS] Lazarus Group deployed <e2>TrickBot</e2> on IP 123.45.67.89 targeting <e1>government</e1> entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "government",
+    "tail": "123.45.67.89",
+    "head_type": "TARGET",
+    "tail_type": "INFRASTRUCTURE",
+    "relation": "no_relation",
+    "input": "[CLS] Lazarus Group deployed TrickBot on IP <e2>123.45.67.89</e2> targeting <e1>government</e1> entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "123.45.67.89",
+    "tail": "Lazarus Group",
+    "head_type": "INFRASTRUCTURE",
+    "tail_type": "THREAT_ACTOR",
+    "relation": "no_relation",
+    "input": "[CLS] <e2>Lazarus Group</e2> deployed TrickBot on IP <e1>123.45.67.89</e1> targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "123.45.67.89",
+    "tail": "TrickBot",
+    "head_type": "INFRASTRUCTURE",
+    "tail_type": "MALWARE",
+    "relation": "hosts",
+    "input": "[CLS] Lazarus Group deployed <e2>TrickBot</e2> on IP <e1>123.45.67.89</e1> targeting government entities. [SEP]"
+  },
+  {
+    "sentence": "Lazarus Group deployed TrickBot on IP 123.45.67.89 targeting government entities.",
+    "head": "123.45.67.89",
+    "tail": "government",
+    "head_type": "INFRASTRUCTURE",
+    "tail_type": "TARGET",
+    "relation": "no_relation",
+    "input": "[CLS] Lazarus Group deployed TrickBot on IP <e1>123.45.67.89</e1> targeting <e2>government</e2> entities. [SEP]"
+  }
+]

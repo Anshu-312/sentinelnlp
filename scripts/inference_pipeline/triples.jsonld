@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "cti": "http://example.org/cti#",
+    "source": "cti:source",
+    "target": "cti:target",
+    "predicate": "cti:predicate"
+  },
+  "@graph": []
+}
