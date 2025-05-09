@@ -1,0 +1,1 @@
+Lazarus Group 사용한 RAT는 Windows 시스템을 감염시킵니다. Tool 이름은 "Dtrack"입니다.

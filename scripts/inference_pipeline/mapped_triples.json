@@ -1,0 +1,44 @@
+{
+  "triples": [
+    {
+      "subject": {
+        "text": "APT29",
+        "type": "THREAT_ACTOR"
+      },
+      "predicate": "uses",
+      "object": {
+        "text": "Mimikatz",
+        "type": "TOOL"
+      }
+    },
+    {
+      "subject": {
+        "text": "Emotet",
+        "type": "MALWARE"
+      },
+      "predicate": "exploits",
+      "object": {
+        "text": "CVE-2021-34527",
+        "type": "VULNERABILITY"
+      }
+    },
+    {
+      "subject": {
+        "text": "Emotet",
+        "type": "MALWARE"
+      },
+      "predicate": "targets",
+      "object": {
+        "text": "Microsoft",
+        "type": "TARGET"
+      }
+    }
+  ],
+  "metadata": {
+    "num_triples": 3,
+    "ontology_files": [
+      "../../ontology/entities.json",
+      "../../ontology/relations.json"
+    ]
+  }
+}

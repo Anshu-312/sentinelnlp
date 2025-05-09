@@ -1,0 +1,2 @@
+APT29 used Mimikatz to escalate privileges via DLL Sideloading.
+The malware Emotet exploited CVE-2021-34527 to gain access to Microsoft systems.

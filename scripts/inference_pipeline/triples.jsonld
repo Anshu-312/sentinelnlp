@@ -5,5 +5,9 @@
     "target": "cti:target",
     "predicate": "cti:predicate"
   },
-  "@graph": []
+  "@graph": [
+    ["APT29", "uses", "Mimikatz"],
+    ["Emotet", "exploits", "CVE-2021-34527"],
+    ["Emotet", "targets", "Microsoft"]
+  ]
 }

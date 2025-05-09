@@ -1,0 +1,1 @@
+FIN7 actors exploited CVE-2023-12345 using Cobalt Strike to move laterally inside corporate networks.

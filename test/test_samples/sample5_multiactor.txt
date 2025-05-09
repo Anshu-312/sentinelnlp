@@ -1,0 +1,1 @@
+Both APT41 and Mustang Panda exploited the same vulnerability CVE-2023-5678 to compromise education sector networks.

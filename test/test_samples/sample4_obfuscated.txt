@@ -1,0 +1,2 @@
+APT28 leveraged a custom loader disguised as rundll32.exe to deploy Zebrocy malware.
+They utilized a backdoor over HTTPS with DNS fallback for C2 communication.

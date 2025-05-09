@@ -1,0 +1,1 @@
+UNC2452 first used PowerShell Empire, and after persistence, deployed SUNBURST malware through SolarWinds update mechanism.

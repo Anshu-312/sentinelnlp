@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://example.org/cyber#",
+    "@base": "http://example.org/cyber/"
+  },
+  "@graph": [
+    {
+      "@id": "APT29",
+      "uses": "Mimikatz"
+    },
+    {
+      "@id": "Emotet",
+      "exploits": "CVE-2021-34527",
+      "targets": "Microsoft"
+    }
+  ]
+}

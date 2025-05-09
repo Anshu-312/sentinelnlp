@@ -1,0 +1,10 @@
+[
+  {
+    "APT29": "THREAT_ACTOR",
+    "Mimikatz": "TOOL",
+    "DLL Sideloading": "TECHNIQUE",
+    "Emotet": "MALWARE",
+    "CVE-2021-34527": "VULNERABILITY",
+    "Microsoft": "TARGET"
+  }
+] 
