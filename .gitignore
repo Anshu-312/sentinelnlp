@@ -71,6 +71,15 @@ nlp_datasets/
 *.db
 *.sqlite3
 
+# Model checkpoints and saved models
+models/ner_bert/checkpoint-epoch-1/
+models/ner_bert/checkpoint-epoch-2/
+models/ner_bert/checkpoint-epoch-3/
+models/ner_bert/checkpoint-epoch-4/
+models/ner_bert/checkpoint-epoch-5/
+models/ner_bert/final/
+models/re_model/saved_model/
+
 # macOS
 .DS_Store
 
